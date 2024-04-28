@@ -66,30 +66,32 @@ These are the steps to create a AWS account.
 
 These are the steps to create a virtual Machine
 -----------
-Sign in to the AWS Management Console: Go to the AWS Management Console and sign in to your AWS account.
+1.Sign in to the AWS Management Console: Go to the AWS Management Console and sign in to your AWS account.
 
 ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/15af8b08-7531-413b-8b33-66f128eb89ca)
 
 
 
-Navigate to EC2 Dashboard: Once logged in, navigate to the EC2 dashboard. You can find it under the "Compute" section or by searching for "EC2" in the AWS Management Console.
+2. Navigate to EC2 Dashboard: Once logged in, navigate to the EC2 dashboard. You can find it under the "Compute" section or by searching for "EC2" in the AWS Management Console.
 
-Launch Instance: Click on the "Launch Instance" button to start the instance creation process.
+3. Launch Instance: Click on the "Launch Instance" button to start the instance creation process.
 
-Choose an Amazon Machine Image (AMI): Select an AMI from the provided list. An AMI is a pre-configured template that contains the operating system and other software required for your virtual machine. You can choose from various Linux distributions, Windows Server, and other operating systems.
+4. Choose an Amazon Machine Image (AMI): Select an AMI from the provided list. An AMI is a pre-configured template that contains the operating system and other software required for your virtual machine. You can choose from various Linux distributions, Windows Server, and other operating systems.
 
-Choose an Instance Type: Select the instance type that suits your requirements. Instance types vary in terms of CPU, memory, storage, and networking capacity. You can choose a general-purpose instance, compute-optimized instance, memory-optimized instance, etc.
+5. Choose an Instance Type: Select the instance type that suits your requirements. Instance types vary in terms of CPU, memory, storage, and networking capacity. You can choose a general-purpose instance, compute-optimized instance, memory-optimized instance, etc.
 
-Configure Instance Details: Configure additional settings such as the number of instances to launch, network settings (VPC, subnet, security groups), IAM role, monitoring options, and more.
+6. Configure Instance Details: Configure additional settings such as the number of instances to launch, network settings (VPC, subnet, security groups), IAM role, monitoring options, and more.
 
-Add Storage: Specify the storage requirements for your instance. You can add additional volumes if needed and choose the type of storage (e.g., SSD, HDD) and its size.
+7. Add Storage: Specify the storage requirements for your instance. You can add additional volumes if needed and choose the type of storage (e.g., SSD, HDD) and its size.
 Configure Security Group: Define security group rules to control the traffic to your instance. You can specify inbound and outbound rules to allow traffic based on protocols, ports, and IP addresses.
 
-Review Instance Launch: Review the configuration details of your instance to ensure everything is set up correctly. You can make changes if needed.
+8. Review Instance Launch: Review the configuration details of your instance to ensure everything is set up correctly. You can make changes if needed.
 Launch Instance: Once you're satisfied with the configuration, click the "Launch" button. AWS will prompt you to select or create a key pair for SSH access to your instance if you haven't already done so. Create and download the key pair.
 
-Access Your Instance: Once the instance is launched, you can access it using SSH (for Linux instances) or Remote Desktop Protocol (RDP) (for Windows instances) using the key pair you downloaded. You'll need the public IP address or DNS name of your instance to connect to it.
-Terminate Instance (Optional): When you're done with your instance, you can terminate it to stop incurring charges. Select the instance in the EC2 dashboard and choose the "Terminate" option. Be careful, as terminating an instance will delete all data stored on it.
+9. Access Your Instance: Once the instance is launched, you can access it using SSH (for Linux instances) or Remote Desktop Protocol (RDP) (for Windows instances) using the key pair you downloaded. You'll need the public IP address or DNS name of your instance to connect to it.
+
+   
+10.Terminate Instance (Optional): When you're done with your instance, you can terminate it to stop incurring charges. Select the instance in the EC2 dashboard and choose the "Terminate" option. Be careful, as terminating an instance will delete all data stored on it.
 
 
 
