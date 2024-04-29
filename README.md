@@ -128,9 +128,25 @@ Launch Instance: Once you're satisfied with the configuration, click the "Launch
  - ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/5066ddee-5f12-45d6-9ff6-c7b2709bef76)
 -  ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/aad5b610-4469-40e0-8fdd-3d4b9474633f)
 
- 12.To get the password click get password
+ 12.To get the password click get password and it should take you to the next page. Then click upload private key and select the one you created earlier. AFter click decrypt password. Then Select copy password.
+ ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/4785d5a7-1e45-4498-a5d4-cc739e2f7c80)
+ ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/13af8951-94a2-4448-9225-85b5ce46591a)
+ ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/f34a7c25-ade1-44dd-999a-20f76cbd53eb)
 
-10.Terminate Instance (Optional): When you're done with your instance, you can terminate it to stop incurring charges. Select the instance in the EC2 dashboard and choose the "Terminate" option. Be careful, as terminating an instance will delete all data stored on it.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/dd72ce6e-14ed-4f10-b186-3840dacf38df)
+-----------
+
+13.Double click your RDP connection then paste your password. Then click OK.Next you'll click Yes and you will now have created your virtual machine.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/63cd7522-d326-4255-883e-708f89b628e5)
+
+
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/f2e5066b-0237-492b-96c9-0c3380449e8f)
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/8f742758-a3a4-46e2-815e-1d6899787de9)
+
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/4c0e1c91-6e2f-43a7-88e6-2d8e6a440cce)
+
+14.Terminate Instance (Optional): When you're done with your instance, you can terminate it to stop incurring charges. Select the instance in the EC2 dashboard and choose the "Terminate" option. Be careful, as terminating an instance will delete all data stored on it.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/415881b4-8d4c-4b0a-8136-e79a3287fb05)
 
 
 
