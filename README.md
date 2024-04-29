@@ -72,25 +72,64 @@ These are the steps to create a virtual Machine
 
 
 
-2. Navigate to EC2 Dashboard: Once logged in, navigate to the EC2 dashboard. You can find it under the "Compute" section or by searching for "EC2" in the AWS Management Console.
+2. Navigate to EC2 Dashboard: By searching for it in the search bar in the AWS Management Console
+   
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/d5ecde9b-9aae-46d3-a696-be53e1bb4630)
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/0e2cd3c7-1ff2-41b1-a605-a4aa251d804f)
 
-3. Launch Instance: Click on the "Launch Instance" button to start the instance creation process.
 
-4. Choose an Amazon Machine Image (AMI): Select an AMI from the provided list. An AMI is a pre-configured template that contains the operating system and other software required for your virtual machine. You can choose from various Linux distributions, Windows Server, and other operating systems.
-
-5. Choose an Instance Type: Select the instance type that suits your requirements. Instance types vary in terms of CPU, memory, storage, and networking capacity. You can choose a general-purpose instance, compute-optimized instance, memory-optimized instance, etc.
-
-6. Configure Instance Details: Configure additional settings such as the number of instances to launch, network settings (VPC, subnet, security groups), IAM role, monitoring options, and more.
-
-7. Add Storage: Specify the storage requirements for your instance. You can add additional volumes if needed and choose the type of storage (e.g., SSD, HDD) and its size.
-Configure Security Group: Define security group rules to control the traffic to your instance. You can specify inbound and outbound rules to allow traffic based on protocols, ports, and IP addresses.
-
-8. Review Instance Launch: Review the configuration details of your instance to ensure everything is set up correctly. You can make changes if needed.
-Launch Instance: Once you're satisfied with the configuration, click the "Launch" button. AWS will prompt you to select or create a key pair for SSH access to your instance if you haven't already done so. Create and download the key pair.
-
-9. Access Your Instance: Once the instance is launched, you can access it using SSH (for Linux instances) or Remote Desktop Protocol (RDP) (for Windows instances) using the key pair you downloaded. You'll need the public IP address or DNS name of your instance to connect to it.
 
    
+3. Click instances then Launch Instance: Click on the "Launch Instance" button to start the instance creation process.
+    ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/c633e305-c3b2-42c3-8931-b60dff2be054)
+    ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/9620c9df-3e64-434d-9082-02b822d05737)
+
+
+4. Name your virtual machine.Then choose an Amazon Machine Image (AMI): Select an AMI from the provided list. An AMI is a pre-configured template that contains the operating system and other software required for your virtual machine. You can choose from various Linux distributions, Windows Server, and other operating systems.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/56166bf0-1dbb-41ca-8461-5bd980d0512e)
+
+
+
+
+
+5. Choose an Instance Type: Select the instance type that suits your requirements. Instance types vary in terms of CPU, memory, storage, and networking capacity. You can choose a general-purpose instance, compute-optimized instance, memory-optimized instance, etc.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/63c13f72-82de-4a4a-af69-370498956b35)
+
+
+6. Configure Instance Details: Configure additional settings such as the number of instances to launch, keypair name (VPC, subnet, security groups), IAM role, monitoring options, and more.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/140c4722-0603-4665-b2e8-ad81f8595a92)
+
+- Click Create new key pair
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/71aad0a2-6189-414e-b669-b2172a270952)
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/5b3bf9af-3c18-4af1-877c-6aad35486bad)
+-After you have created your key pair you should see it in your downloads folder
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/2d1eef42-ceb5-4e77-abe6-2b4a26eb4f07)
+
+
+
+8. Add Storage: Specify the storage requirements for your instance. You can add additional volumes if needed and choose the type of storage (e.g., SSD, HDD) and its size.
+Configure Security Group: Define security group rules to control the traffic to your instance. You can specify inbound and outbound rules to allow traffic based on protocols, ports, and IP addresses.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/c25428b5-f78d-4b49-b05a-27a34f8ed25c)
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/ccb72bee-f2a2-49f7-8b00-4eec3d9d8400)
+
+
+9. Review Instance Launch: Review the configuration details of your instance to ensure everything is set up correctly. You can make changes if needed.
+Launch Instance: Once you're satisfied with the configuration, click the "Launch" button. AWS will prompt you to select or create a key pair for SSH access to your instance if you haven't already done so. Create and download the key pair.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/7e82a70e-9137-4816-802c-2abf920397a3)
+
+
+
+10. You should see success which means your virtual machine was created. Access Your Instance: Once the instance is launched, you can access it using SSH  or Remote Desktop Protocol (RDP) (for Windows instances) using the key pair you downloaded. You'll need the public IP address or DNS name of your instance to connect to it.
+![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/cc23599d-5224-404a-8284-ba95d38570bd)
+
+11. To connect to your virtual machine click the box next to the name of your VM. Then Click connect. Click RDP Client. After click Download remote desktop file and you should see your virtual machine show up in your browser download tab.
+
+- ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/5379343c-83f8-4970-ab06-c8f727406348)
+ - ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/5066ddee-5f12-45d6-9ff6-c7b2709bef76)
+-  ![image](https://github.com/PeterCodyLeon/Creating-virtual-machines-in-AWS/assets/161895166/aad5b610-4469-40e0-8fdd-3d4b9474633f)
+
+ 12.To get the password click get password
+
 10.Terminate Instance (Optional): When you're done with your instance, you can terminate it to stop incurring charges. Select the instance in the EC2 dashboard and choose the "Terminate" option. Be careful, as terminating an instance will delete all data stored on it.
 
 
